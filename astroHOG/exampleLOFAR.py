@@ -8,7 +8,7 @@ from astropy.io import fits
 import matplotlib.pyplot as plt
 
 sys.path.append('/Users/jsoler/Documents/astrohog/')
-from astrohog import *
+from .astrohog import *
 
 from astropy.wcs import WCS
 from reproject import reproject_interp

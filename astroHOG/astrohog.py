@@ -5,7 +5,7 @@
 import numpy as np
 from astropy.convolution import convolve_fft
 from astropy.convolution import Gaussian2DKernel
-from congrid import *
+from .congrid import *
 
 # ------------------------------------------------------------------------------------------------------------------------
 def HOG_PRS(phi):
